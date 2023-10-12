@@ -51,14 +51,14 @@ export default class DataSource extends GSDataSource {
             console.log(insertResult)
             console.log(findResult)
             console.log(updateResult)
-            console.log(deleteResult)
+            
 
             // You can return the results or handle them as needed
             return {
                 insertResult,
                 findResult,
                 updateResult,
-                deleteResult,
+               
             };
         } catch (error) {
             throw error;
