@@ -1,0 +1,2 @@
+"http.get./mongotest":
+  fn: mongo_function

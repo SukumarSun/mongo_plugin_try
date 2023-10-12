@@ -1,0 +1,8 @@
+id: mongo_function
+tasks:
+  - id: first_task
+    fn: datasource.mongo
+    args: 
+      name: "hi mongo"
+
+    
